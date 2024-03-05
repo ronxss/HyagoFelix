@@ -35,8 +35,8 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #7f0301;
-  --bs-secondary: #f7b400;
+  --bs-primary: #000;
+  --bs-secondary: #ffc720;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -3336,11 +3336,11 @@ fieldset:disabled .btn {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #7f0301;
-  --bs-btn-border-color: #7f0301;
+  --bs-btn-bg: #000;
+  --bs-btn-border-color: #ffc720;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #4a0100;
-  --bs-btn-hover-border-color: #4a0100;
+  --bs-btn-hover-bg: #ffc720;
+  --bs-btn-hover-border-color: #ffc720;
   --bs-btn-focus-shadow-rgb: 64, 79, 245;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #1826c2;
@@ -3590,17 +3590,17 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-dark {
-  --bs-btn-color: #f7b400;
-  --bs-btn-border-color: #f7b400;
+  --bs-btn-color: #ffc720;
+  --bs-btn-border-color: #ffc720;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #f7b400;
-  --bs-btn-hover-border-color: #f7b400;
+  --bs-btn-hover-bg: #ffc720;
+  --bs-btn-hover-border-color: #ffc720;
   --bs-btn-focus-shadow-rgb: 33, 37, 41;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #212529;
   --bs-btn-active-border-color: #212529;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #f7b400;
+  --bs-btn-disabled-color: #ffc720;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #212529;
   --bs-gradient: none;
@@ -13548,12 +13548,12 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #7f0301;
-  background: linear-gradient(135deg, #7f0301 0%, #f7b400 100%);
+  background: #000;
+  background: linear-gradient(135deg, #000 0%, #ffc720 100%);
 }
 
 .text-primary {
-  background: -webkit-linear-gradient(315deg, #f7b400 0%, #7f0301 100%);
+  background: -webkit-linear-gradient(315deg, #ffc720 0%, #000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -13598,7 +13598,7 @@ html {
 }
 
 .profile .dots-1 svg {
-  fill: #7f0301;
+  fill: #000;
 }
 
 .profile .dots-2 {
@@ -13609,7 +13609,7 @@ html {
 }
 
 .profile .dots-2 svg {
-  fill: #f7b400;
+  fill: #ffc720;
 }
 
 .profile .dots-3 {
@@ -13620,7 +13620,7 @@ html {
 }
 
 .profile .dots-3 svg {
-  fill: #7f0301;
+  fill: #000;
 }
 
 .profile .dots-4 {
@@ -13631,7 +13631,7 @@ html {
 }
 
 .profile .dots-4 svg {
-  fill: #f7b400;
+  fill: #ffc720;
 }
 
 @media (min-width: 576px) {
