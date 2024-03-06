@@ -130,6 +130,7 @@ h1,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  text-shadow: black 0.1em 0.1em 0.2em
 }
 
 h1,
@@ -9329,6 +9330,11 @@ header.masthead .h1 {
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-yellow {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-yellow-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-white {
