@@ -18,7 +18,7 @@
   --bs-pink: #e21e80;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
+  --bs-yellow: #ffc720;
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
@@ -78,6 +78,7 @@
   --bs-link-hover-color: #1826c2;
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
+  --bs-yellow-rgb: 255, 199, 32;
 }
 
 *,
@@ -5203,6 +5204,82 @@ fieldset:disabled .btn {
   list-style: none;
 }
 
+#sobre .row .bloco-quem-somos {
+  background: #ffffff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1607843137);
+}
+
+.imagem {
+  position: relative;
+  top: -20px;
+  margin-top: 0;
+  right: 0;
+  display: block;
+}
+
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255, 199, 32) 80%), url("/assets/transito.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead h1,
+header.masthead .h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+
+  header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.responsive {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.page-section {
+  padding: 8rem 0;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center center;
+  padding: 80px 0;
+  height: 100vh;
+  min-height: 674px;
+  position: relative;
+  margin-top: 0;
+}
+
 .page-link {
   position: relative;
   display: block;
@@ -9341,6 +9418,11 @@ fieldset:disabled .btn {
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-yellow {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-yellow-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-gradient-primary-to-secondary {
@@ -13548,8 +13630,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #000;
-  background: linear-gradient(135deg, #000 0%, #ffc720 100%);
+  background: linear-gradient(180deg, #000 0%, #ffc720 100%);
 }
 
 .text-primary {
